@@ -1,6 +1,6 @@
 # Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE
 
-![TASS Computer Vision Demo Docs](/TASS/_DOCS/Images/TASS-Demo-Banner.png)
+![TASS Computer Vision Demo Docs](/TASS/_DOCS/Images/Tass-Demo-Banner.png)
 
 ## Introduction
 
