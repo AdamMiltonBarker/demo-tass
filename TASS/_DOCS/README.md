@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here you will find an index of the tutorials available in theTASS Computer Vision Demo
+Here you will find an index of the tutorials available in the TASS Computer Vision Demo
 
 - [Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS/_DOCS/1-Installing-Ubuntu-Server.md "Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE")
 
