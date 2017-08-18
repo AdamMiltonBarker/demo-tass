@@ -1,0 +1,41 @@
+{
+    "CameraList": [
+        {
+            "camID": 0,
+            "camSensorID": 0,
+            "camZone": 0,
+            "camURL": ""
+        }
+    ],
+    "RealsenseCam": {
+        "localCamID": 0,
+        "camID": 60,
+        "camSensorID": 128,
+        "camZone": 1
+    },
+    "ClassifierSettings": {
+        "tassModel": 1,
+        "imgDim": 96,
+        "ldaDim": -1,
+        "useCuda": 0,
+        "threshold": 20,
+        "HAAR_FACES": "Haarcascades/haarcascade_frontalface_default.xml",
+        "HAAR_IMPROVED": "lbpcascade_frontalface_improved.xml",
+        "HAAR_FACES2": "Haarcascades/haarcascade_frontalface_alt.xml",
+        "HAAR_FACES3": "Haarcascades/haarcascade_frontalface_alt2.xml",
+        "HAAR_PROFILES": "Haarcascades/haarcascade_profileface.xml",
+        "HAAR_MIN_NEIGHBORS": 4,
+        "HAAR_SCALE_FACTOR": 1.3,
+        "height": 112,
+        "width": 92
+    },
+	"IoTJumpWayMQTTSettings": {
+        "host": "https://iot.techbubbletechnologies.com",
+        "port": "8883",
+        "SystemLocation": 0,
+        "SystemApplicationID": 0,
+        "SystemApplicationName": "",
+        "applicationUsername": "",
+        "applicationPassword": ""
+    }
+}
