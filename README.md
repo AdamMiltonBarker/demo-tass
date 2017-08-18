@@ -1,4 +1,4 @@
- TASS Computer Vision Demos
+# TASS Computer Vision Demos
 
 ![TASS Computer Vision Demo Docs](/TASS/_DOCS/Images/Tass-Demo-Banner.png)
 
