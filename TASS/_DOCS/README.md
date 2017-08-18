@@ -1,6 +1,6 @@
 # TASS Computer Vision Demo Docs
 
-![TASS Computer Vision Demo Docs](images/TASS-Demo-Banner.png)
+![TASS Computer Vision Demo Docs](Images/TASS-Demo-Banner.png)
 
 ## Introduction
 
