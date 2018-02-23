@@ -8,7 +8,7 @@ Want to turn your Intel® NUC DE3815TYKE, or any Linux box running Ubuntu into a
 
 ## What Will We Build?
 
-The tutorial will use TechBubble Technologies IoT JumpWay Python MQTT Library for communication, an Intel® NUC DE3815TYKE or any Linux Desktop running Ubuntu, 1 or more IP Cameras, an optional Realsense camera, and our own deep learning neural network based on the popular OpenFace facial recognition toolkit.
+The tutorial will use  IoT JumpWay Python MQTT Library for communication, an Intel® NUC DE3815TYKE or any Linux Desktop running Ubuntu, 1 or more IP Cameras, an optional Realsense camera, and our own deep learning neural network based on the popular OpenFace facial recognition toolkit.
 
 ## Python Versions
 
@@ -55,9 +55,9 @@ You will need to clone this repository to a location on your Intel® NUC DE3815T
 
 ## IoT JumpWay Device / Application Connection Credentials & Settings
 
-- Follow the [TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Application Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/5-Location-Applications.md "TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Application Doc") to set up your IoT JumpWay Location Application.
+- Follow the [ IoT JumpWay Developer Program (BETA) Location Application Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/5-Location-Applications.md " IoT JumpWay Developer Program (BETA) Location Application Doc") to set up your IoT JumpWay Location Application.
 
-- Setup an IoT JumpWay Location Device for each IP camera you will be connecting to, and / or your Realsense camera. For this example, we only require the device ID for each camera, we will not be using the MQTT details for each camera as the application is capable of sending data on behalf of any device in its location. Follow the [TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Device Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/4-Location-Devices.md "TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Device Doc") to set up your devices.
+- Setup an IoT JumpWay Location Device for each IP camera you will be connecting to, and / or your Realsense camera. For this example, we only require the device ID for each camera, we will not be using the MQTT details for each camera as the application is capable of sending data on behalf of any device in its location. Follow the [ IoT JumpWay Developer Program (BETA) Location Device Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/4-Location-Devices.md " IoT JumpWay Developer Program (BETA) Location Device Doc") to set up your devices.
 
 ![IoT JumpWay Device Creation Docs](/TASS-OpenFace/_DOCS/Images/Device-Creation.jpg)
 
@@ -165,7 +165,7 @@ We would like to acknowledge and thank the creators of these projects.
 
 ## LICENSE
 
-Copyright 2016, Adam Milton-Barker, TechBubble Technologies, All rights reserved.
+Copyright 2016, Adam Milton-Barker, , All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
