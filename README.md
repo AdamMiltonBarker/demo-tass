@@ -12,11 +12,11 @@ TASS Movidius uses pretrained **Inception V3 & Yolo models** and an **Intel® Mo
 
 ## TASS PVL Computer Vision Demo
 
-[![TASS PVL Computer Vision Demo](TASS-PVL/Windows/images/Intel-Computer-Vision-Windows.png)](https://github.com/SSG-DRD-IOT/demo-tass/tree/master/TASS-PVL/Windows/Webcam/Realsense)
+[![TASS PVL Computer Vision Demo](TASS-PVL/Windows/images/Intel-Computer-Vision-Windows.png)](https://github.com/SSG-DRD-IOT/demo-tass/tree/master/TASS-PVL/)
 
 TASS PVL is a Computer Vision security system using Intel® Computer Vision SDK and an Intel® Edison connected to the Internet of Things via the IoT JumpWay.
 
-- [TASS PVL RealSense Security System](https://github.com/SSG-DRD-IOT/demo-tass/tree/master/TASS-PVL/Windows/Webcam/Realsense/ConsoleApp "TASS PVL RealSense Security System")
+- [TASS PVL RealSense Security System](https://github.com/SSG-DRD-IOT/demo-tass/tree/master/TASS-PVL/Windows/Realsense/ConsoleApp "TASS PVL RealSense Security System")
 
 - [TASS PVL WebCam Security System](https://github.com/SSG-DRD-IOT/demo-tass/tree/master/TASS-PVL/Windows/Webcam/ConsoleApp "TASS PVL WebCam Security System")
 
