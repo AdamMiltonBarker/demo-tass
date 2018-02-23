@@ -1,6 +1,6 @@
 # TASS Computer Vision Demo
 
-![TASS Computer Vision Demo Docs](/TASS-OpenFace/_DOCS/Images/Tass-Demo-Banner.png)
+![TASS Computer Vision Demo Docs](../images/tass-openface.jpg)
 
 ## Introduction
 
