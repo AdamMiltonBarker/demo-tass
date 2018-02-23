@@ -1,10 +1,10 @@
-# TASS Computer Vision Demo
+# TASS OpenFace Computer Vision Demo
 
-![TASS Computer Vision Demo Docs](../images/tass-openface.jpg)
+![TASS OpenFace Computer Vision Demo Docs](../images/tass-openface.jpg)
 
 ## Introduction
 
-Want to turn your Intel® NUC DE3815TYKE, or any Linux box running Ubuntu into an Artificially Intelligent, IoT Connected CCTV Hub? This tutorial is for you!.
+Want to turn your Intel® NUC DE3815TYKE, or any Linux box running Ubuntu into an Artificially Intelligent, IoT Connected CCTV Hub? This tutorial is for you!
 
 ## What Will We Build?
 
@@ -174,3 +174,7 @@ http://www.apache.org/licenses/LICENSE-2
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 [![View this project on Intel® DevMesh](/TASS-OpenFace/_DOCS/Images/devmesh.png)](https://devmesh.intel.com/projects/tass-network)
+
+## Contributors
+
+[![Adam Milton-Barker, Intel® Software Innovator](/images/Intel-Software-Innovator.jpg)](https://github.com/AdamMiltonBarker)
