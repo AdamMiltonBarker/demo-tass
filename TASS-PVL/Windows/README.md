@@ -1,6 +1,6 @@
-# IoT JumpWay Intel® Computer Vision SDK Examples
+# IoT JumpWay Intel® Computer Vision SDK Windows Examples
 
-![TechBubble IoT JumpWay Docs](Windows/images/Intel-Computer-Vision-Windows.png)
+![TechBubble IoT JumpWay Docs](images/Intel-Computer-Vision-Windows.png)
 
 ## Introduction
 
@@ -20,4 +20,4 @@ The Intel® Computer Vision SDK Windows examples provide example projects that y
 
 ## Contributors
 
-[![Adam Milton-Barker, Intel® Software Innovator](../images/Intel-Software-Innovator.jpg)](https://github.com/AdamMiltonBarker)
+[![Adam Milton-Barker, Intel® Software Innovator](../../images/Intel-Software-Innovator.jpg)](https://github.com/AdamMiltonBarker)

@@ -1,14 +1,14 @@
-# TASS Computer Vision Demo
+# TASS OpenFace Computer Vision Demo
 
-![TASS Computer Vision Demo Docs](/TASS/_DOCS/Images/Tass-Demo-Banner.png)
+![TASS OpenFace Computer Vision Demo Docs](../images/tass-openface.jpg)
 
 ## Introduction
 
-Want to turn your Intel® NUC DE3815TYKE, or any Linux box running Ubuntu into an Artificially Intelligent, IoT Connected CCTV Hub? This tutorial is for you!.
+Want to turn your Intel® NUC DE3815TYKE, or any Linux box running Ubuntu into an Artificially Intelligent, IoT Connected CCTV Hub? This tutorial is for you!
 
 ## What Will We Build?
 
-The tutorial will use TechBubble Technologies IoT JumpWay Python MQTT Library for communication, an Intel® NUC DE3815TYKE or any Linux Desktop running Ubuntu, 1 or more IP Cameras, an optional Realsense camera, and our own deep learning neural network based on the popular OpenFace facial recognition toolkit.
+The tutorial will use  IoT JumpWay Python MQTT Library for communication, an Intel® NUC DE3815TYKE or any Linux Desktop running Ubuntu, 1 or more IP Cameras, an optional Realsense camera, and our own deep learning neural network based on the popular OpenFace facial recognition toolkit.
 
 ## Python Versions
 
@@ -32,7 +32,7 @@ There are a few tutorials that you should follow before beginning, especially if
 
 ## Preparing Your Intel® NUC DE3815TYKE
 
-If you do not already have Ubuntu Server 16.04 LTS installed on your Intel® NUC DE3815TYKE, follow the [Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS/_DOCS/1-Installing-Ubuntu-Server.md "Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE") guide.
+If you do not already have Ubuntu Server 16.04 LTS installed on your Intel® NUC DE3815TYKE, follow the [Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS-OpenFace/_DOCS/1-Installing-Ubuntu-Server.md "Installing Ubuntu Server 16.04 LTS on Intel® NUC DE3815TYKE") guide.
 
 ## Cloning The Repo
 
@@ -49,17 +49,17 @@ You will need to clone this repository to a location on your Intel® NUC DE3815T
 
 ## Install Remaining Required Software
 
-1. Follow the [Installing OpenFace on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS/_DOCS/2-Installing-OpenFace.md "Installing OpenFace on Intel® NUC DE3815TYKE") guide.
+1. Follow the [Installing OpenFace on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS-OpenFace/_DOCS/2-Installing-OpenFace.md "Installing OpenFace on Intel® NUC DE3815TYKE") guide.
 
-2. Follow the [Installing Librealsense & Pyrealsense on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS/_DOCS/3-Installing-Librealsense.md "Installing Librealsense & Pyrealsense on Intel® NUC DE3815TYKE") guide. (OPTIONAL BUT REQUIRED IF USING REALSENSE CAMERA)
+2. Follow the [Installing Librealsense & Pyrealsense on Intel® NUC DE3815TYKE](https://github.com/SSG-DRD-IOT/demo-tass/blob/master/TASS-OpenFace/_DOCS/3-Installing-Librealsense.md "Installing Librealsense & Pyrealsense on Intel® NUC DE3815TYKE") guide. (OPTIONAL BUT REQUIRED IF USING REALSENSE CAMERA)
 
 ## IoT JumpWay Device / Application Connection Credentials & Settings
 
-- Follow the [TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Application Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/5-Location-Applications.md "TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Application Doc") to set up your IoT JumpWay Location Application.
+- Follow the [ IoT JumpWay Developer Program (BETA) Location Application Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/5-Location-Applications.md " IoT JumpWay Developer Program (BETA) Location Application Doc") to set up your IoT JumpWay Location Application.
 
-- Setup an IoT JumpWay Location Device for each IP camera you will be connecting to, and / or your Realsense camera. For this example, we only require the device ID for each camera, we will not be using the MQTT details for each camera as the application is capable of sending data on behalf of any device in its location. Follow the [TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Device Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/4-Location-Devices.md "TechBubble Technologies IoT JumpWay Developer Program (BETA) Location Device Doc") to set up your devices.
+- Setup an IoT JumpWay Location Device for each IP camera you will be connecting to, and / or your Realsense camera. For this example, we only require the device ID for each camera, we will not be using the MQTT details for each camera as the application is capable of sending data on behalf of any device in its location. Follow the [ IoT JumpWay Developer Program (BETA) Location Device Doc](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Docs/blob/master/4-Location-Devices.md " IoT JumpWay Developer Program (BETA) Location Device Doc") to set up your devices.
 
-![IoT JumpWay Device Creation Docs](/TASS/_DOCS/Images/Device-Creation.jpg)
+![IoT JumpWay Device Creation Docs](/TASS-OpenFace/_DOCS/Images/Device-Creation.jpg)
 
 - Retrieve your connection credentials and update the config.json file with your new connection credentials and camera IDs, add a new entry to CameraList for each IP cam, and add your Realsense camera ID.
 
@@ -136,9 +136,9 @@ In the event that a face is detected, the frame will be saved in the frames fold
 
 When the program detects a known user or intruder, it will send sensor and warning data for the device it was captured from to the [TechBubble IoT JumpWay](https://iot.techbubbletechnologies.com/ "TechBubble IoT JumpWay"). You will be able to access the data in the [TechBubble IoT JumpWay Developers Area](https://iot.techbubbletechnologies.com/developers/dashboard/ "TechBubble IoT JumpWay Developers Area"). Once you have logged into the Developers Area, visit the [TechBubble IoT JumpWay Location Devices Page](https://iot.techbubbletechnologies.com/developers/location-devices "Location Devices page"), find your device and then visit the Warnings & Sensor Data pages to view the data sent from the application.
 
-![IoT JumpWay Sensor Data](/TASS/_DOCS/Images/SensorData.png)
+![IoT JumpWay Sensor Data](/TASS-OpenFace/_DOCS/Images/SensorData.png)
 
-![IoT JumpWay Warning Data](/TASS/_DOCS/Images/WarningData.png)
+![IoT JumpWay Warning Data](/TASS-OpenFace/_DOCS/Images/WarningData.png)
 
 ## KNOWN ISSUES
 
@@ -165,7 +165,7 @@ We would like to acknowledge and thank the creators of these projects.
 
 ## LICENSE
 
-Copyright 2016, Adam Milton-Barker, TechBubble Technologies, All rights reserved.
+Copyright 2016, Adam Milton-Barker, , All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
@@ -173,4 +173,8 @@ http://www.apache.org/licenses/LICENSE-2
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-[![View this project on Intel® DevMesh](/TASS/_DOCS/Images/devmesh.png)](https://devmesh.intel.com/projects/tass-network)
+[![View this project on Intel® DevMesh](/TASS-OpenFace/_DOCS/Images/devmesh.png)](https://devmesh.intel.com/projects/tass-network)
+
+## Contributors
+
+[![Adam Milton-Barker, Intel® Software Innovator](/images/Intel-Software-Innovator.jpg)](https://github.com/AdamMiltonBarker)
